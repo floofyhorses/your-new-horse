@@ -1,0 +1,35 @@
+html {
+    color: black;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid green;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-top {
+    color: darkslategrey;
+    background-color: lightseagreen;
+    height: 50px;
+    margin: 8px;
+    padding: 16px;
+    border: 1px solid green;
+    display: flex;
+    
+}
+
+.title-image {
+  max-width: 100%;
+  height: auto;
+  border: 8px solid coral;
+  /* display: flex;
+  align-self: center; */
+}
