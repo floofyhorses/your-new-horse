@@ -26,10 +26,15 @@ h1 {
     
 }
 
-.title-image {
-  max-width: 100%;
+ img {
+  width: 50%;
   height: auto;
-  border: 8px solid coral;
-  /* display: flex;
-  align-self: center; */
+ 
+}
+
+#title-image {
+    border: 16px solid coral;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
 }
