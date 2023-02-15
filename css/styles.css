@@ -33,8 +33,8 @@ h1 {
 }
 
 #title-image {
-    border: 16px solid coral;
     display: flex;
     align-items: center;
     padding-left: 250px;
+    background-color: black;
 }
