@@ -56,16 +56,43 @@ nav {
 
 .horse-care {
     color: black;
+    
+}
+
+.horse-care:hover {
+    color: white;
 }
 
 .budgeting {
     color: lightcoral;
 }
 
+.budgeting:hover {
+    color: white;
+}
+
 .about {
     color: lightcoral;
 }
 
+
+.about:hover {
+    color: white;
+}
+
+.contact {
+    color: black;
+}
+
+
+.contact:hover {
+    color: white;
+}
+
 .breeds {
     color: lightcoral;
+}
+
+.breeds:hover {
+    color:white;
 }
