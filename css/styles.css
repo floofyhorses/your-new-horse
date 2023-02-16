@@ -6,15 +6,16 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 h1 {
     text-align: center;
     
 }
+
 .title {
     font-size: 24px;
     font-weight: bold;
 }
+
 .main-top {
     color: darkslategrey;
     background-color: lightseagreen;
@@ -32,7 +33,12 @@ nav {
     justify-content: space-between;
 }
 
- img {
+a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+ #title-image img {
   width: 50%;
   height: auto;
  
@@ -45,6 +51,25 @@ nav {
     background-color: black;
 }
 
+
+
+.page-links,
+.page-link-images {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+img.page-link-images {
+    flex:1;
+    
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
 .left {
     flex: 1;
 }
@@ -54,47 +79,21 @@ nav {
     padding-right: 0;
 }
 
-.horse-care {
+.horse-care, .contact {
     color: black;
     
 }
 
-.horse-care:hover {
-    color: white;
-}
-
-.budgeting {
-    color: lightcoral;
-}
-
-.budgeting:hover {
-    color: white;
-}
-
-.about {
-    color: lightcoral;
-}
-
-
-.about:hover {
-    color: white;
-}
-
-.contact {
-    color: black;
-}
-
-
-.contact:hover {
-    color: white;
-}
-
-.breeds {
-    color: lightcoral;
-}
-
+.horse-care:hover, 
+.budgeting:hover,
+.about:hover,
+.contact:hover, 
 .breeds:hover {
     color: white;
+}
+
+.budgeting, .about, .breeds {
+    color: lightcoral;
 }
 
 a:hover {
