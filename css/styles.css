@@ -9,7 +9,7 @@ html {
 
 h1 {
     text-align: center;
-    border: 1px solid green;
+    
 }
 .title {
     font-size: 24px;
@@ -20,10 +20,16 @@ h1 {
     background-color: lightseagreen;
     height: 50px;
     margin: 8px;
-    padding: 16px;
-    border: 1px solid green;
+    padding: 28px;
     display: flex;
-    
+    justify-content: center;
+
+}
+
+nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
 
  img {
@@ -37,4 +43,13 @@ h1 {
     align-items: center;
     padding-left: 250px;
     background-color: black;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 0;
+    padding-right: 0;
 }
