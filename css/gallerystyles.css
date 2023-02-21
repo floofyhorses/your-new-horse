@@ -1,12 +1,23 @@
+body,
+html {
+    height: 100%,
+
+}
+
+h1 {
+    flex: 1;
+}
+
 .gallery-top {
     background-color: lightseagreen;
-    height: 50px;
+    height: 100px;
     width: auto;
-    margin: 8px;
-    padding: 38px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
 }
+
 
 .gallery-intro {
     height: 80px;
@@ -29,3 +40,9 @@
     width: 150px;
     height: 180px;
 }
+
+.back {
+    align-self: flex-end;
+   
+}
+
