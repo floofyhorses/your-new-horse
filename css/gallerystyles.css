@@ -1,11 +1,11 @@
 body,
 html {
     height: 100%,
-
 }
 
-h1 {
-    flex: 1;
+.back {
+    align-self: flex-end;
+   
 }
 
 .gallery-top {
@@ -19,6 +19,9 @@ h1 {
    
 }
 
+h1 {
+    flex: 1;
+}
 
 .gallery-intro {
     height: 80px;
@@ -42,8 +45,4 @@ h1 {
     height: 180px;
 }
 
-.back {
-    align-self: flex-end;
-   
-}
 
