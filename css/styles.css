@@ -4,10 +4,12 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1 {
     text-align: center;
+    text-decoration:underline 1px gray;
     
 }
 
@@ -59,36 +61,35 @@ img.page-link-images {
     
 }
 
-img {
+ img {
     width: 25%;
     height: auto;
 }
-/* .left {
-    flex: 1;
-}
 
-.right {
-    flex: 0;
-    padding-right: 0;
-} */
-
-.horse-care, .contact {
+#horse-care, 
+#contact {
     color: black;
     
 }
 
-.horse-care:hover, 
-.budgeting:hover,
-.about:hover,
-.contact:hover, 
-.breeds:hover {
+#horse-care:hover, 
+#budgeting:hover,
+#about:hover,
+#contact:hover, 
+#breeds:hover,
+.back:hover {
     color: white;
 }
 
-.budgeting, .about, .breeds {
+#budgeting, #about, #breeds {
     color: lightcoral;
 }
 
 a:hover {
     color: black;
 }
+
+.back {
+    color: black;
+    }
+
