@@ -93,3 +93,31 @@ a:hover {
     color: black;
     }
 
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        width:100%;
+        height: auto;
+    }
+
+    .subscribe {
+        font-weight: 700;
+        color:blueviolet;
+    }
+
+    #contact-form {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    #submit {
+        width: 100px;
+        align-self: center;
+        color: black;
+        background-color: rgb(127, 219, 255);
+    }
