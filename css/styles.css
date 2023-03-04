@@ -1,36 +1,57 @@
-html {
+body {
     color: black;
     background-color: aliceblue;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-size: 16px;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     
 }
 
-h1 {
-    text-align: center;
-    text-decoration:underline 1px gray;
+.header {
+    align-items: center;
+    padding: 16px;
+    height: 72px;
+    background-color:rgba(107, 43, 226, 25%);
+    margin-bottom: 0;
+ }
+
+ nav {
+    width: 200px;
+    display: flex;
+    order: -1;
+    flex-shrink: 0;
+    background-color: rgba(32, 178, 170, 50%);
+    border: 3px solid red;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid green;
+    list-style-type: none;
     
 }
 
-.title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
- nav {
-    background-color: lightseagreen;
-    height: 50px;
-    width: auto;
-    margin: 8px;
-    padding: 38px;
-    display: flex;
-    justify-content: space-between;
+#trot-back {
+    color: black;
+    align-self: flex-end;
 }
  
+.holy-grail-body {
+    display: flex;
+    
+}
+
+.main-container {
+    flex:1;
+    padding: 32px;
+}
+
 a {
     text-decoration: none;
-    color: lightcoral;
+    color: black;
 }
 
 #title-image img {
@@ -40,19 +61,19 @@ a {
 }
 
 #title-image {
-    display: flex;
-    align-items: center;
-    padding-left: 250px;
     background-color: black; 
     /* A workaround for my desired image size 
-    and resolution*/
+    and resolution in the previous border-box
+    version of this site but I like it.*/
 }
 
 .page-links,
 .page-link-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    gap: 16px;
     
 }
 
@@ -66,8 +87,12 @@ img.page-link-images {
     height: auto;
 }
 
+.welcome-intro {
+    color: black;
+}
 #horse-care, 
-#contact {
+#contact, 
+.back {
     color: black;
     
 }
@@ -77,21 +102,15 @@ img.page-link-images {
 #about:hover,
 #contact:hover, 
 #breeds:hover,
-.back:hover {
+.back:hover, 
+a:hover,
+#trot-back:hover {
     color: white;
 }
 
 #budgeting, #about, #breeds {
-    color: lightcoral;
-}
-
-a:hover {
     color: black;
 }
-
-.back {
-    color: black;
-    }
 
     .contact-form-container {
         display: flex;
@@ -101,11 +120,14 @@ a:hover {
         padding: 30px;
         width:100%;
         height: auto;
+        border: 3px solid red;
     }
 
     .subscribe {
         font-weight: 700;
         color:blueviolet;
+        border: 3px solid blue;
+        text-align: center;
     }
 
     #contact-form {
@@ -120,4 +142,10 @@ a:hover {
         align-self: center;
         color: black;
         background-color: rgb(127, 219, 255);
+       
     }
+
+    .footer {
+        background-color:rgba(107, 43, 226, 25%);
+        padding: 18px;
+    }   
