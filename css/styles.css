@@ -16,32 +16,28 @@ body {
     height: 72px;
     background-color:rgba(107, 43, 226, 25%);
     margin-bottom: 0;
- }
+}
 
  nav {
     width: 200px;
     display: flex;
     order: -1;
     flex-shrink: 0;
-    background-color: rgba(32, 178, 170, 50%);
-    border: 3px solid red;
+    background-color: rgba(32, 178, 170, 50%);  
 }
+
 ul {
     display: flex;
     flex-direction: column;
-    border: 3px solid green;
     list-style-type: none;
-    
 }
 
 #trot-back {
-    color: black;
-    align-self: flex-end;
+    align-self: flex-end;    
 }
  
 .holy-grail-body {
     display: flex;
-    
 }
 
 .main-container {
@@ -74,32 +70,18 @@ a {
     justify-content: space-between;
     flex-direction: row;
     gap: 16px;
-    
-}
-
-img.page-link-images {
     flex:1;
-    
+   
 }
 
- img {
+img {
     width: 25%;
     height: auto;
 }
 
-.welcome-intro {
-    color: black;
-}
-#horse-care, 
-#contact, 
-.back {
-    color: black;
-    
-}
-
 #horse-care:hover, 
 #budgeting:hover,
-#about:hover,
+.about:hover,
 #contact:hover, 
 #breeds:hover,
 .back:hover, 
@@ -108,39 +90,32 @@ a:hover,
     color: white;
 }
 
-#budgeting, #about, #breeds {
-    color: black;
-}
 
-    .contact-form-container {
+.contact-form-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 30px;
         width:100%;
-        height: auto;
-        border: 3px solid red;
     }
 
-    .subscribe {
+.subscribe {
         font-weight: 700;
         color:blueviolet;
-        border: 3px solid blue;
         text-align: center;
     }
 
-    #contact-form {
+ #contact-form {
         display:flex;
         justify-content: space-between;
         flex-direction: column;
         gap: 8px;
     }
-
+    
     #submit {
         width: 100px;
         align-self: center;
-        color: black;
         background-color: rgb(127, 219, 255);
        
     }
