@@ -55,11 +55,13 @@ a {
 #title-image img {
     width: 50%;
     height: auto;
- 
+    border-radius: 15px;
 }
 
 #title-image {
     background-color: black; 
+    border: 3px solid gray;
+    border-radius: 15px;
     /* A workaround for my desired image size 
     and resolution in the previous border-box
     version of this site but I like it.*/
