@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     font-size: 16px;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     
 }
 
@@ -14,11 +14,12 @@ body {
     align-items: center;
     padding: 16px;
     height: 72px;
-    background-color:rgba(107, 43, 226, 25%);
+    background-color:rgb(4, 12, 80);
+    color:white;
     margin-bottom: 0;
 }
 
- nav {
+nav {
     width: 200px;
     display: flex;
     order: -1;
@@ -29,6 +30,7 @@ body {
 ul {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     list-style-type: none;
 }
 
@@ -121,6 +123,7 @@ a:hover,
     }
 
     .footer {
-        background-color:rgba(107, 43, 226, 25%);
+        background-color:rgb(4, 12, 80);
+        color: white;
         padding: 18px;
     }   
