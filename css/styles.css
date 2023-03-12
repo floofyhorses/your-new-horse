@@ -63,8 +63,8 @@ a {
     border: 3px solid gray;
     border-radius: 15px;
     /* A workaround for my desired image size 
-    and resolution in the previous border-box
-    version of this site but I like it.*/
+    and resolution.
+    */
 }
 
 .page-links,
@@ -102,6 +102,9 @@ a:hover,
         align-items: center;
         padding: 30px;
         width:100%;
+        border: 3px solid gray;
+        border-radius: 15px;
+        background-color:aliceblue;
     }
 
 .subscribe {
