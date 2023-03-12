@@ -7,20 +7,20 @@
     <title>Contact</title>
 </head>
 <body>
-    <form>
-       First Name: <input type="text"><br>
+    <form method="GET">
+       First Name: <input type="text" name="firstname"><br>
        Email: <input type="email" required><br>
       
        <label for="topic-interests"> My Question is About:</label>
-       <select name="topic-interests" id="topic=select">
+       <select name="topic-interests" id="topic-select">
         <option value="">--please choose an option--</option>
-        <option value="horse-care">Horse Care</option>
-        <option value="nutrition">Horse Nutrition</option>
-        <option value="rider-health">Rider Health and Fitness</option>
-        <option value="buying">Tips on Buying</option>
-        <option value="riding-tips">Riding and Training Tips</option><br>
+        <option value="horse-care" name="horse-care">Horse Care</option>
+        <option value="nutrition" name="nutrition">Horse Nutrition</option>
+        <option value="rider-health" name="rider-health">Rider Health and Fitness</option>
+        <option value="buying" name="buying">Tips on Buying</option>
+        <option value="riding-tips" name="riding-tips">Riding and Training Tips</option><br>
     </select><br>
-    Other question:<input type="text">
+    Other question:<textarea rows="3" cols="50" value="other-question" name="other-question"></textarea><br><br>
     <input type="submit" value="Submit">
     </form>
     
