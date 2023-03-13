@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Contact</title>
 </head>
 <body>
-    <form method="GET">
-       First Name: <input type="text" name="firstname"><br>
-       Email: <input type="email" required><br>
+
+  <header class="header">
+<h1>Have Questions?</h1>
+  </header>
+    
+ <div>
+    <form method="GET" id="contact-page-form">
+       First Name: <input type="text" name="firstname"><br><br>
+       Email: <input type="email" required><br><br>
       
-       <label for="topic-interests"> My Question is About:</label>
+       <label for="topic-interests"> My Question is About:</label><br><br>
        <select name="topic-interests" id="topic-select">
         <option value="">--please choose an option--</option>
         <option value="horse-care" name="horse-care">Horse Care</option>
@@ -19,10 +26,16 @@
         <option value="rider-health" name="rider-health">Rider Health and Fitness</option>
         <option value="buying" name="buying">Tips on Buying</option>
         <option value="riding-tips" name="riding-tips">Riding and Training Tips</option><br>
-    </select><br>
+    </select><br><br>
     Other question:<textarea rows="3" cols="50" value="other-question" name="other-question"></textarea><br><br>
     <input type="submit" value="Submit">
     </form>
+ </div>
+
+
+ <footer class="footer">
     <a href="index.html">Trot Back Home</a>
+</footer>
+
 </body>
 </html>
