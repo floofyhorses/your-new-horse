@@ -132,3 +132,24 @@ a:hover,
         color: white;
         padding: 18px;
     }   
+
+   
+    /* Below are additional styles created for the page contact.html */
+
+    #contact-page-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 8px;
+        border: 3px solid gray;
+        border-radius: 15px;
+        padding: 32px;
+        background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+      
+    }
+
+    footer > a {
+        color: white;
+        margin-top: 0;
+    }
