@@ -2,6 +2,7 @@ body,
 html {
     height: 100%,
     font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 
 .back {
@@ -22,6 +23,15 @@ html {
 
 h1 {
     flex: 1;
+}
+
+img {
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+img:hover {
+    transition: all 1s;
+    transform: scale(1.1);
 }
 
 .gallery-intro {
