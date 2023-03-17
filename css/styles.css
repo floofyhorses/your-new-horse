@@ -17,6 +17,7 @@ body {
     background-color:rgb(4, 12, 80);
     color:white;
     margin-bottom: 0;
+    box-shadow: 3px 5px #999999;
 }
 
 nav {
@@ -115,6 +116,7 @@ a:hover,
         font-weight: 700;
         color:blueviolet;
         text-align: center;
+        font-size: 24px;
     }
 
  #contact-form {
