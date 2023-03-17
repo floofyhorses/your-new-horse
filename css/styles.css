@@ -25,6 +25,10 @@ nav {
     order: -1;
     flex-shrink: 0;
     background-color: rgba(32, 178, 170, 50%);  
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+
 }
 
 ul {
