@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     font-family: 'Poiret One', cursive;
     margin: 0;
-    
+    font-weight: bold;
 }
 
 .header {
@@ -26,7 +26,6 @@ nav {
     flex-shrink: 0;
     background-color: rgba(32, 178, 170, 50%);  
     color: black;
-    font-weight: bold;
     font-size: 24px;
 
 }
